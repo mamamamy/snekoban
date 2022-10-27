@@ -1,0 +1,17 @@
+<filter object at 0x7fc6974a6920>
+============================= test session starts ==============================
+platform linux -- Python 3.10.6, pytest-7.1.3, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /root/lab_distribution/snekoban
+collecting ... collected 40 items
+
+test.py::test_units[unit_movement_no_obstructions] PASSED                [  2%]
+test.py::test_units[unit_push_double_computer_1] PASSED                  [  5%]
+test.py::test_units[unit_push_double_computer_2] PASSED                  [  7%]
+test.py::test_units[unit_push_single_computer_1] PASSED                  [ 10%]
+test.py::test_units[unit_push_single_computer_2] 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KeyboardInterrupt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/root/lab_distribution/snekoban/lab.py:29: KeyboardInterrupt
+(to show a full traceback on KeyboardInterrupt use --full-trace)
+============================== 4 passed in 1.32s ===============================
